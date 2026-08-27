@@ -7,28 +7,28 @@ import '@/styles/themes.css';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Nitin Ranganath | Portfolio',
-    template: 'Nitin Ranganath | %s',
+    default: 'Charles Emmanuel Cruz | Portfolio',
+    template: 'Charles Emmanuel Cruz | %s',
   },
   description:
-    "Nitin Ranganath is an avid full stack web developer building websites and applications you'd love to use",
+    "Charles Emmanuel Cruz is an avid tech enthusiast building websites and applications you'd love to use",
   keywords: [
-    'nitin ranganath',
-    'nitin',
-    'ranganath',
+    'charles emmanuel cruz',
+    'charles',
+    'emmanuel cruz',
     'web developer portfolio',
-    'nitin web developer',
-    'nitin developer',
+    'charles web developer',
+    'charles developer',
     'mern stack',
-    'nitin ranganath portfolio',
+    'charles emmanuel cruz portfolio',
     'vscode-portfolio',
   ],
   openGraph: {
-    title: "Nitin Ranganath's Portfolio",
+    title: "Charles Emmanuel Cruz's Portfolio",
     description:
       "A full-stack developer building websites that you'd like to use.",
     images: ['https://imgur.com/4zi5KkQ.png'],
-    url: 'https://vscode-portfolio.vercel.app',
+    url: 'https://charlescruz.vercel.app',
   },
   twitter: {
     card: 'summary_large_image',

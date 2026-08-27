@@ -3,38 +3,38 @@ import styles from '@/styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'website',
-    link: 'nitinranganath.com',
-    href: 'https://nitinranganath.com',
+    link: 'charlescruz.vercel.app',
+    href: 'https://charlescruz.vercel.app',
   },
   {
     social: 'email',
-    link: 'nitinranganath@gmail.com',
-    href: 'mailto:nitinranganath@gmail.com',
+    link: 'cruzcharles90@gmail.com',
+    href: 'mailto:cruzcharles90@gmail.com',
   },
   {
     social: 'github',
-    link: 'itsnitinr',
-    href: 'https://github.com/itsnitinr',
+    link: 'charlsieemman',
+    href: 'https://github.com/charlsieemman',
   },
   {
     social: 'linkedin',
-    link: 'nitinranganath',
-    href: 'https://www.linkedin.com/in/nitinranganath/',
+    link: 'charles-emmanuel-cruz',
+    href: 'https://www.linkedin.com/in/charles-emmanuel-cruz/',
   },
   {
     social: 'twitter',
-    link: 'iamnitinr',
-    href: 'https://www.twitter.com/iamnitinr',
+    link: 'emmaluneclasher',
+    href: 'https://www.twitter.com/emmaluneclasher',
   },
   {
     social: 'telegram',
-    link: 'iamnitinr',
-    href: 'https://t.me/iamnitinr',
+    link: 'emmaluneclasher',
+    href: 'https://t.me/emmaluneclasher',
   },
   {
-    social: 'peerlist',
-    link: 'nitinranganath',
-    href: 'https://peerlist.io/nitinranganath',
+    social: 'facebook',
+    link: 'charles-emmanuel-cruz',
+    href: 'https://www.facebook.com/charles.e.cruz',
   },
 ];
 

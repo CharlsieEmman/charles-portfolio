@@ -46,7 +46,7 @@ export default async function ArticlesPage() {
             
             <div className={styles.headerContent}>
               <div className={styles.headerTop}>
-                <h1 className={styles.title}>Articles</h1>
+                <h1 className={styles.title}>Certifications & Awards</h1>
                 <div className={styles.stats}>
                   <div className={styles.stat}>
                     <VscGlobe size={14} />
@@ -67,12 +67,12 @@ export default async function ArticlesPage() {
           </div>
 
           <a 
-            href="https://dev.to/itsnitinr"
+            href="https://www.credly.com/users/charles-emmanuel-cruz/badges/credly"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.profileLink}
           >
-            <span>DEV.to</span>
+            <span>credly.com</span>
             <VscLinkExternal size={14} />
           </a>
         </header>

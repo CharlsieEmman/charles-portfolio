@@ -13,18 +13,18 @@ const AboutPage = () => {
         <header className={styles.header}>
           <div className={styles.headerContent}>
             <div className={styles.headerText}>
-              <h1 className={styles.name}>Nitin Ranganath</h1>
-              <p className={styles.role}>Software Engineer at Tessact</p>
+              <h1 className={styles.name}>Charles Emmanuel Cruz</h1>
+              <p className={styles.role}>BS IT Graduate</p>
               <div className={styles.location}>
                 <span className={styles.dot} />
-                Mumbai, India
+                Philippines
               </div>
             </div>
           </div>
           
           <div className={styles.headerActions}>
             <a 
-              href="https://github.com/itsnitinr" 
+              href="https://github.com/charlsieemman" 
               target="_blank" 
               rel="noopener noreferrer"
               className={styles.iconButton}
@@ -47,15 +47,14 @@ const AboutPage = () => {
             
             <div className={styles.sectionBody}>
               <p className={styles.paragraph}>
-                I&apos;m a software engineer passionate about crafting beautiful, performant 
-                web experiences. I primarily work with the JavaScript/TypeScript ecosystem 
-                and React, building products that people love to use.
+                I&apos;m a fresh graduate of BS Information Technology with a versatile
+                set of skills that spans software development, network engineering, 
+                and data analysis.
               </p>
               
               <p className={styles.paragraph}>
-                While I specialize in frontend development, I enjoy working across the 
-                stack with Node.js, MongoDB, and Express to bring full-stack applications 
-                to life.
+                As I start my career, I am eager to apply my knowledge and skills to real-world projects,
+                contribute to innovative solutions, and continue learning in the ever-evolving field of technology.
               </p>
             </div>
           </section>
@@ -72,25 +71,40 @@ const AboutPage = () => {
                 <div className={styles.expMeta}>
                   <span className={styles.expPeriod}>Present</span>
                 </div>
-                <h3 className={styles.expRole}>Software Engineer 2</h3>
-                <p className={styles.expCompany}>Tessact</p>
+                <h3 className={styles.expRole}>Backend Developer Intern</h3>
+                <p className={styles.expCompany}>DOST CO-PES</p>
                 <ul className={styles.expList}>
-                  <li>Leading frontend development with a lean team of 4 engineers</li>
-                  <li>Building a next-gen video creation suite for professionals</li>
-                  <li>Implemented collaborative video reviewing and editing features</li>
-                  <li>Maintaining in-house component library, icon library and website</li>
+                  <li>Implemented Apache Kafka to enable decoupled communication between microservices</li>
+                  <li>Participated in agile development processes and code reviews</li>
+                  <li>Developed and maintained RESTful APIs using Node.js and Express</li>
+                  <li>Contributed to the design and implementation of microservice interconnectivity</li>
                 </ul>
               </div>
 
               <div className={styles.experienceCard}>
                 <div className={styles.expMeta}>
-                  <span className={styles.expPeriod}>Freelance</span>
+                  <span className={styles.expPeriod}>College Organizations</span>
                 </div>
-                <h3 className={styles.expRole}>Technical Writer</h3>
-                <p className={styles.expDesc}>
-                  Contributing to publications like <strong>100ms Blog</strong>, 
-                  <strong>LogRocket Blog</strong>, and <strong>DEV.to</strong>.
-                </p>
+                <h3 className={styles.expRole}>Managing Director</h3>
+                <p className={styles.expCompany}>The HERALDO FILIPINO</p>
+                <ul className={styles.expList}>
+                  <li>Monitored and managed the day-to-day operations of the publication</li>
+                  <li>Utilized an internal ERP system for procurement of materials and equipment</li>
+                  <li>Led a team of editors to ensure quality operational workflow</li>
+                </ul>
+              </div>
+
+              <div className={styles.experienceCard}>
+                <div className={styles.expMeta}>
+                  <span className={styles.expPeriod}>College Organizations</span>
+                </div>
+                <h3 className={styles.expRole}>Web Manager</h3>
+                <p className={styles.expCompany}>The HERALDO FILIPINO</p>
+                <ul className={styles.expList}>
+                  <li>Ensured maximum uptime on the website and implemented security measures against potential threats</li>
+                  <li>Redesigned the UI/UX into a modern, user-friendly interface</li>
+                  <li>Managed the website content using WordPress</li>
+                </ul>
               </div>
             </div>
           </section>
@@ -107,18 +121,11 @@ const AboutPage = () => {
                 <div className={styles.skillCategory}>
                   <h4 className={styles.skillTitle}>Languages</h4>
                   <div className={styles.skillTags}>
+                    <span className={styles.skillTag}>Java</span>
                     <span className={styles.skillTag}>JavaScript</span>
                     <span className={styles.skillTag}>TypeScript</span>
-                    <span className={styles.skillTag}>HTML/CSS</span>
-                  </div>
-                </div>
-                
-                <div className={styles.skillCategory}>
-                  <h4 className={styles.skillTitle}>Frontend</h4>
-                  <div className={styles.skillTags}>
-                    <span className={styles.skillTag}>React</span>
-                    <span className={styles.skillTag}>Next.js</span>
-                    <span className={styles.skillTag}>Tailwind CSS</span>
+                    <span className={styles.skillTag}>Python</span>
+                    <span className={styles.skillTag}>C#</span>
                   </div>
                 </div>
                 
@@ -126,24 +133,63 @@ const AboutPage = () => {
                   <h4 className={styles.skillTitle}>Backend</h4>
                   <div className={styles.skillTags}>
                     <span className={styles.skillTag}>Node.js</span>
-                    <span className={styles.skillTag}>Express</span>
-                    <span className={styles.skillTag}>MongoDB</span>
+                    <span className={styles.skillTag}>REST APIs</span>
+                    <span className={styles.skillTag}>Microservices Architecture</span>
+                  </div>
+                </div>
+
+                <div className={styles.skillCategory}>
+                  <h4 className={styles.skillTitle}>Frontend</h4>
+                  <div className={styles.skillTags}>
+                    <span className={styles.skillTag}>HTML5</span>
+                    <span className={styles.skillTag}>CSS3</span>
+                    <span className={styles.skillTag}>React</span>
                   </div>
                 </div>
                 
                 <div className={styles.skillCategory}>
-                  <h4 className={styles.skillTitle}>Tools</h4>
+                  <h4 className={styles.skillTitle}>Frameworks</h4>
                   <div className={styles.skillTags}>
+                    <span className={styles.skillTag}>Express.js</span>
+                    <span className={styles.skillTag}>ASP.NET</span>
+                  </div>
+                </div>
+                
+                <div className={styles.skillCategory}>
+                  <h4 className={styles.skillTitle}>Databases</h4>
+                  <div className={styles.skillTags}>
+                    <span className={styles.skillTag}>MongoDB</span>
+                    <span className={styles.skillTag}>PostgreSQL</span>
+                    <span className={styles.skillTag}>MS SQL Server</span>
+                  </div>
+                </div>
+
+                <div className={styles.skillCategory}>
+                  <h4 className={styles.skillTitle}>DevOps, Tools, & Messaging Systems</h4>
+                  <div className={styles.skillTags}>
+                    <span className={styles.skillTag}>Apache Kafka</span>
+                    <span className={styles.skillTag}>Docker</span>
+                    <span className={styles.skillTag}>Podman</span>
+                    <span className={styles.skillTag}>Kubernetes</span>
                     <span className={styles.skillTag}>Git</span>
-                    <span className={styles.skillTag}>VS Code</span>
+                    <span className={styles.skillTag}>Postman</span>
+                  </div>
+                </div>
+
+                <div className={styles.skillCategory}>
+                  <h4 className={styles.skillTitle}>Platforms & Technologies</h4>
+                  <div className={styles.skillTags}>
+                    <span className={styles.skillTag}>WordPress</span>
+                    <span className={styles.skillTag}>cPanel</span>
                     <span className={styles.skillTag}>Figma</span>
+                    <span className={styles.skillTag}>Google Apps Script</span>
                   </div>
                 </div>
               </div>
             </div>
           </section>
 
-          {/* Writing Section */}
+          {/* Writing Section 
           <section className={styles.section}>
             <div className={styles.sectionHeader}>
               <span className={styles.sectionNumber}>04</span>
@@ -188,7 +234,7 @@ const AboutPage = () => {
                 </a>
               </div>
             </div>
-          </section>
+          </section>*/}
 
           {/* Beyond Code Section */}
           <section className={styles.section}>
@@ -199,8 +245,8 @@ const AboutPage = () => {
             
             <div className={styles.sectionBody}>
               <p className={styles.paragraph}>
-                Aside from programming and writing, I enjoy reading dystopian novels, 
-                listening to calm piano music, or just enjoying some downtime.
+                Aside from programming and writing, I enjoy reading novels, 
+                playing the piano, or just enjoying chill games.
               </p>
             </div>
           </section>
