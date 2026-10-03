@@ -19,7 +19,7 @@ export const projects: Project[] = [
     title: 'Heraldo Filipino Website Redesign',
     description:
       'A modern and minimalist redesign of the Heraldo Filipino website.',
-    logo: '/logos/hf.png',
+    logo: '/logos/hf.PNG',
     link: 'https://heraldofilipino.org',
     slug: 'heraldo',
   },
@@ -27,7 +27,7 @@ export const projects: Project[] = [
     title: 'Heraldo Filipino Archives',
     description:
       'A collection of archived publications dated as early as 1985 from the Heraldo Filipino.',
-    logo: '/logos/hf.png',
+    logo: '/logos/hf.PNG',
     link: 'https://heraldofilipino.org',
     slug: 'heraldo-archives',
   },
