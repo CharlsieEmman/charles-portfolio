@@ -69,7 +69,7 @@ const AboutPage = () => {
             <div className={styles.sectionBody}>
               <div className={styles.experienceCard}>
                 <div className={styles.expMeta}>
-                  <span className={styles.expPeriod}>Present</span>
+                  <span className={styles.expPeriod}>Internship</span>
                 </div>
                 <h3 className={styles.expRole}>Backend Developer Intern</h3>
                 <p className={styles.expCompany}>DOST CO-PES</p>
