@@ -28,7 +28,7 @@ export const projects: Project[] = [
     description:
       'A collection of archived publications dated as early as 1985 from the Heraldo Filipino.',
     logo: '/logos/hf.PNG',
-    link: 'https://heraldofilipino.org',
+    link: 'https://heraldofilipino.org/archives',
     slug: 'heraldo-archives',
   },
   {
