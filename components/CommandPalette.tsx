@@ -60,7 +60,7 @@ const CommandPalette = ({ isOpen, onClose, onToggleTerminal, isTerminalOpen }: C
       },
       {
         id: 'go-articles',
-        label: 'Go to Articles',
+        label: 'Go to Awards & Certifications',
         category: 'Navigation',
         shortcut: 'G R',
         icon: <VscBook size={16} />,

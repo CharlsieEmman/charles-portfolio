@@ -15,6 +15,14 @@ export interface Project {
   logo: string;
   link: string;
   slug: string;
+  tags?: string[];
+}
+
+export interface Award {
+  id: string;
+  title: string;
+  tags: string[];
+  date: string;
 }
 
 export interface Repo {

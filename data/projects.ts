@@ -4,6 +4,7 @@ export interface Project {
   logo: string;
   link: string;
   slug: string;
+  tags?: string[];
 }
 
 export const projects: Project[] = [
@@ -14,6 +15,7 @@ export const projects: Project[] = [
     logo: '/logos/iot.svg',
     link: 'https://jjs-dlsud-2025.vercel.app/',
     slug: 'iot-bus-tracking',
+    tags: ['IoT', 'Real-time', 'Embedded Systems'],
   },
   {
     title: 'Heraldo Filipino Website Redesign',
@@ -22,6 +24,7 @@ export const projects: Project[] = [
     logo: '/logos/hf.PNG',
     link: 'https://heraldofilipino.org',
     slug: 'heraldo',
+    tags: ['Next.js', 'UI/UX', 'Web Design'],
   },
   {
     title: 'Heraldo Filipino Archives',
@@ -30,6 +33,7 @@ export const projects: Project[] = [
     logo: '/logos/hf.PNG',
     link: 'https://heraldofilipino.org/archives',
     slug: 'heraldo-archives',
+    tags: ['Next.js', 'Digital Archive'],
   },
   {
     title: 'Shopee Fraudulent Product Detection',
@@ -38,6 +42,7 @@ export const projects: Project[] = [
     logo: '/logos/shopee.png',
     link: 'https://github.com/s1yah/E-commerce-Fraudulent-Product-Detection',
     slug: 'shopee-fraud-detection',
+    tags: ['Machine Learning', 'Python', 'E-commerce'],
   },
   {
     title: 'Cross-Platform Store Identity Verification System',
@@ -46,5 +51,6 @@ export const projects: Project[] = [
     logo: '/logos/shopee.png',
     link: 'https://github.com/s1yah/Cross-platform-E-commerce-Store-Identity-Verifier',
     slug: 'cross-platform-store-verification',
+    tags: ['Python', 'NLP', 'E-commerce'],
   },
 ];

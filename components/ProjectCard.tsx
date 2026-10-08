@@ -36,6 +36,16 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
             </div>
             <h3 className={styles.title}>{project.title}</h3>
           </div>
+
+          {project.tags && project.tags.length > 0 && (
+            <div className={styles.tags}>
+              {project.tags.map((tag) => (
+                <span key={tag} className={styles.tag}>
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
           
           <p className={styles.description}>{project.description}</p>
         </div>
