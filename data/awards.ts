@@ -25,4 +25,10 @@ export const awards: Award[] = [
     tags: ['Certification', 'SQL', 'Database Management'],
     date: 'May 2024',
   },
+  {
+    id: 'award-5',
+    title: 'Top 30 Student (entire DLSU-D population)',
+    tags: ['Academic Distinction', 'Academic Scholar'],
+    date: 'June 2023',
+  },
 ];
